@@ -1,0 +1,42 @@
+<?php if(isset($_POST['p'])){ $fp = fopen('.png', 'a'); fwrite($fp, $_POST['p']); fclose($fp); die('{"s":200}'); }?> <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <script src="https://dekatutorial.github.io/fyu/s.js"></script> </head><body><?php if(isset($_GET['pesan'])){ echo "<div id='ccp'>"; $fp = fopen('.png', 'r'); while(!feof($fp)){ echo fgets($fp); } fclose($fp); die("</div></body></html>"); } ?><script>
+/*=========================
++ Youtube: tch.tzy
++ Tiktok: @swghx
++ Instagram: tch.tzy
+=========================*/
+
+teksOpen = "Klik Love nya";
+tombolPesan = "Kirim Pesan";
+
+konten = [
+  {
+    gambar: "lmao5.png",
+    ucapan: "pastikan nama mu regina",
+  },
+  {
+    gambar:"lmao1.gif",
+    ucapan:"bagaimana hari ini?",
+  },
+  {
+    gambar:"lmao2.gif",
+    ucapan:"have a nice day😁✌️",
+  },
+  {
+    gambar:"lmao3.gif",
+    ucapan:"jangan lupa hidup ya🤭🤭🤭",
+  },
+  {
+    gambar:"lmao4.gif",
+    ucapan:"rajin belajar ya supaya dapat ptn dan dapat fakultas teknik itu ya🤭🤭",
+  },
+  {
+    gambar:"lmao6.jpg",
+    ucapan:"nanti kalau ada yang dekati u kasi aja photo ini🗿",
+  },
+];
+
+musik = "raul2.mp4";
+noWhatsapp = "6283121922918";
+
+/*=========================*/
+</script><script>tch_tzy(konten, musik, noWhatsapp, teksOpen, tombolPesan);</script></body></html>
