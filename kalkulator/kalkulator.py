@@ -69,7 +69,7 @@ def samadengan():
             hitung =n_awal / int(nomor_akhir)
             e.insert(0,hitung)
         except ZeroDivisionError:
-            e.insert(0,'maaf kau goblok')
+            e.insert(0,'maaf lu goblok')
 
     elif mtk == "sisabagi":
         e.insert(0,n_awal % int(nomor_akhir))
@@ -148,3 +148,4 @@ akar2.grid(row= 5, column= 0, pady=2)
 
 
 root.mainloop()
+
